@@ -25,8 +25,8 @@ func main() {
 		chromedp.Evaluate(j, &res),
 	)
 	if err != nil {
-		fmt.Printf("[!] ERROR: ", err)
+		fmt.Printf("[!] ERROR: %s", err)
 	} else {
-		fmt.Printf("[+] RESULT: ", res)
+		fmt.Printf(res)
 	}
 }
