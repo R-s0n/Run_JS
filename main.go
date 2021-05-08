@@ -25,8 +25,8 @@ func main() {
 		chromedp.Evaluate(j, &res),
 	)
 	if err != nil {
-		fmt.Printf("[!] ERROR: %s", err)
+		fmt.Printf("[!] %s does not appear to be vulnerable", u)
 	} else {
-		fmt.Printf(res)
+		fmt.Printf("[+] %s is VULNERABLE!", u)
 	}
 }
