@@ -10,4 +10,4 @@ This script is driven by chomedp: https://github.com/chromedp/chromedp
 
 ### Usage
 
-runjs -u [TARGET URL] -J [JAVASCRIPT]
+`runjs -u [TARGET URL] -J [JAVASCRIPT]`
